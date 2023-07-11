@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="Intro-Title-section" ref="scrollRef">
+  <section id="home" class="intro-title-section" ref="scrollRef">
     <div class="catch-title">
       <h1>
         <span>Find,</span> <span>annotate</span> and <span>store</span> legal
