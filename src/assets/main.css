@@ -462,6 +462,8 @@ main {
 }
 
 .catch-title h1 {
+  font-weight: normal;
+  color: #472B00;
   width: 80%;
   font-size: 2rem;
   margin-top: 2rem;
@@ -473,19 +475,19 @@ main {
   position: relative;
   color: #0D8435;
   z-index: 1;
-  padding: 5px;
-  text-align: center;
 }
 
 .catch-title h1 span::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 88%;
   height: 100%;
   background-color: #B6DAC2;
-  left: 0;
+  top: 5%;
+  left: 5%;
   z-index: -1;
-  transform: skew(-5deg, -5deg);
+  transform: skew(8deg, -3deg);
+  border-radius: 4px;
 }
 
 .catch-title h1 span:nth-child(2) {
@@ -494,7 +496,7 @@ main {
 
 .catch-title h1 span:nth-child(2)::after {
   background-color: #B6CDDA;
-  transform: skew(4deg, 4deg);
+  transform: skew(-5deg, -3deg);
   text-align: center;
   width: 90%;
 }
@@ -505,7 +507,7 @@ main {
 
 .catch-title h1 span:nth-child(3)::after {
   background-color: #DAB6BD;
-  transform: skew(-1deg, -3deg);
+  transform: skew(7deg, 3deg);
   width: 90%;
   top: 0.5vh;
 }
