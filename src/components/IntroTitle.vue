@@ -1,7 +1,7 @@
 <template>
   <section id="home" class="intro-title-section" ref="scrollRef">
     <div class="catch-title">
-      <h1>
+      <h1 class="font-roboto-slab">
         <span>Find,</span> <span>annotate</span> and <span>store</span> legal
         data
       </h1>
