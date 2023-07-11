@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-import { ref, computed, defineProps, toRefs } from "vue";
+import { ref, computed, toRefs } from "vue";
 const props = defineProps(["activeTab"]);
 const { activeTab } = toRefs(props);
 // const activeTab = ref("home");

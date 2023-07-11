@@ -44,7 +44,7 @@
 <script setup>
 import DataSoftware from "./DataSoftware.vue";
 import { onScrollIntersect } from "../composables/onScrollIntersect";
-import { ref, onMounted, onUnmounted, defineEmits } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const observer = ref({});
 const scrollRef = ref({});

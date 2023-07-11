@@ -1,6 +1,4 @@
 import { onIntersect } from "./onIntersect";
-import { ref } from "vue";
-import { defineEmits } from "vue";
 
 export const onScrollIntersect = (elementToWatch, onEnter) => {
 
