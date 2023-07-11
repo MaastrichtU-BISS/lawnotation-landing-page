@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="shadow-lg">
     <a href="#home" @click="activeTab = 'home'">
       <img src="../assets/icon/lawnotation_logo_v2.svg" alt="" class="logo"
     /></a>
