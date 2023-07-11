@@ -514,7 +514,6 @@ main {
 
 .btn-container {
   display: flex;
-  padding: 10px;
 }
 
 .btn-container a {
@@ -522,7 +521,7 @@ main {
   text-align: center;
   margin-right: 10px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .btn-container .start-btn,
@@ -531,14 +530,13 @@ main {
   border: none;
   outline: none;
   color: #fff;
-  padding: 1rem;
-  width: 100%;
+  padding: 1rem 3rem;
   border-radius: 50px;
 }
 
 .btn-container .read-btn {
   background-color: #fff;
-  border: 2px solid #0D5984;
+  border: 4px solid #0D5984;
   color: #0D5984;
 }
 
@@ -550,10 +548,6 @@ main {
   }
   .btn-container {
     margin: 3% 0 0% 10%;
-  }
-  .btn-container .start-btn,
-  .btn-container .read-btn {
-    width: 15rem;
   }
   .Introduction-container {
     display: flex;

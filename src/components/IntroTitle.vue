@@ -6,7 +6,7 @@
         data
       </h1>
     </div>
-    <div class="btn-container">
+    <div class="btn-container font-roboto-slab">
       <a href="https://lawnotation.vercel.app" class="start-btn" target="_blank">Start now</a>
       <a  href="#data&software" class="read-btn">Read more</a>
     </div>
