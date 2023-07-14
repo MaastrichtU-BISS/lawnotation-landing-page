@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  color: #472B00;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -54,7 +58,6 @@ header li a {
 }
 .Data_container {
   height: 100%;
-  color: #000;
 }
 
 .processing_storage,
@@ -99,7 +102,6 @@ header li a {
 .processing-container li a {
   font-weight: 500;
   font-size: 18px;
-  color: #000;
   text-decoration: underline;
 }
 
@@ -114,7 +116,6 @@ header li a {
 }
 
 .Description {
-  color: #000;
   font-size: 16px;
   font-weight: 500;
   margin-left: 12%;
@@ -206,7 +207,6 @@ header li a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #000;
   margin-top: 2em;
 }
 
@@ -253,7 +253,6 @@ header li a {
   justify-content: space-between;
   padding: 20px;
   background-color: #EDE6DA;
-  color: #000;
   border-radius: 10px;
 }
 
@@ -267,14 +266,12 @@ header li a {
 }
 
 .member-info p a {
-  color: #000;
   text-decoration: underline;
 }
 
 .member-info h4 a {
   font-size: 18px;
   text-decoration: underline;
-  color: #000;
 }
 
 .member-info h4 {
@@ -293,9 +290,6 @@ header li a {
     justify-content: flex-start;
   }
   .card:nth-child(2) .profile-photo {
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
     object-position: center;
   }
 }
@@ -313,7 +307,6 @@ header li a {
 }
 
 .Contributors_title h1 {
-  color: #000;
   padding: 10px;
   margin-top: 10px;
   border-bottom: 2px solid #000;
@@ -329,18 +322,15 @@ header li a {
 }
 
 .Contributors_list nav ul li {
-  color: #000;
   margin-bottom: 1rem;
   line-height: 2rem;
 }
 
 .Contributors_list li a {
-  color: #000;
   text-decoration: underline;
 }
 
 .Contributors_list span {
-  color: #000;
   margin-left: 10px;
 }
 
@@ -373,7 +363,6 @@ a {
   position: relative;
   background-color: #EDE6DA;
   display: block;
-  color: #000;
   height: 100%;
   padding: 15px;
 }
@@ -427,7 +416,6 @@ footer {
   background-color: #EDE6DA;
   background-image: url(./img/plus.svg);
   padding-left: 4%;
-  color: #000;
 }
 
 footer h2 {
