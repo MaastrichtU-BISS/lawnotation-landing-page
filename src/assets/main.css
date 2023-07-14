@@ -422,7 +422,6 @@ main {
 }
 
 .catch-title h1 {
-  font-weight: normal;
   font-size: 3rem;
 }
 
@@ -466,23 +465,25 @@ main {
   top: 0.5vh;
 }
 
-.btn {
+.btn, .btn-outline {
   font-family: "Roboto Slab";
   background-color: #0D5984;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 1rem 3rem;
   border-radius: 50px;
 }
 
 .btn-outline {
-  font-family: "Roboto Slab";
   border: 4px #0D5984 solid;
   background-color: #fff;
   color: #0D5984;
-  font-size: 1.5rem;
-  padding: 1rem 3rem;
-  border-radius: 50px;
+}
+
+@media (min-width: 768px) {
+  .btn, .btn-outline {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 855px) {

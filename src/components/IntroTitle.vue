@@ -1,17 +1,21 @@
 <template>
   <section id="home" class="intro-title-section" ref="scrollRef">
-    <div class="catch-title">
-      <h1 class="font-roboto-slab">
-        <span>Find,</span> <span>annotate</span> and <span>store</span> legal
-        data
-      </h1>
-    </div>
-    <div class="font-roboto-slab flex flex-col gap-2 p-3">
-      <a href="https://lawnotation.vercel.app" target="_blank"><button class="btn">Start now</button></a>
-      <a href="#data&software"><button class="btn-outline">Read more</button></a>
+    <div class="container mx-auto p-4 flex flex-col gap-4">
+      <div class="catch-title">
+        <h1 class="font-roboto-slab">
+          <span>Find,</span> <span>annotate</span> and <span>store</span> legal data
+        </h1>
+      </div>
+      <div class="font-roboto-slab flex flex-col gap-4 md:flex-row">
+        <a href="https://lawnotation.vercel.app" target="_blank"
+          ><button class="btn">Start now</button></a
+        >
+        <a href="#data&software"><button class="btn-outline">Read more</button></a>
+      </div>
     </div>
   </section>
 </template>
+
 <script setup>
 import { onScrollIntersect } from "../composables/onScrollIntersect";
 import { ref, onMounted, onUnmounted } from "vue";
