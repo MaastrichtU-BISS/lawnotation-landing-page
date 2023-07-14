@@ -4,7 +4,7 @@
       <a href="#home" @click="activeTab = 'home'">
         <img src="../assets/icon/lawnotation_logo_v2.svg" alt="" class="logo"
       /></a>
-      <ul class="navItems">
+      <ul class="flex justify-around gap-8 list-none items-center">
         <li :class="{ active: isActive }">
           <a class="item" href="#home" @click="activeTab = 'home'">Home</a>
         </li>

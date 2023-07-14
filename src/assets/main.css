@@ -13,30 +13,18 @@ header {
   z-index: 999;
 }
 
-header .navItems {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  align-items: center;
-  margin-right: 10px;
-  padding: 10px 12px;
-}
-
-header li a {
-  padding: 10px;
-  color: #a0793d;
-  font-size: 17px;
-  opacity: 0.5;
-  font-weight: 700;
-}
-
 .logo {
   width: 220px;
 }
 
+header li a {
+  opacity: 0.5;
+  font-weight: 700;
+}
+
 .active a {
   opacity: 1;
-  border-bottom: 2px solid #a0793d;
+  border-bottom: 2px solid;
 }
 
 @media only screen and (max-width: 960px) {
