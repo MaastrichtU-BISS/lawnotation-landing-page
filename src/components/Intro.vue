@@ -3,9 +3,9 @@
   <section  ref="scrollRef" class="Introduction-container">
     <div class="book-mark"></div>
     <div class="intro-text">
-      <h1>What is it?!</h1>
+      <h1>What is Lawnotation?</h1>
       <p>
-        The LAWNOTATION project (2022 – 2024) aims to develop an infrastructure
+        The Lawnotation project (2022 – 2024) aims to develop an infrastructure
         that allows researchers to making legal data and annotation schemes
         (current and future) accessible for annotation and analysis purposes, to
         develop an annotation platform for analyzing the linguistic and legal
@@ -20,7 +20,7 @@
       </p>
 
       <p>
-        LAWNOTATION is an initiative of the Digital Legal Studies cluster in the
+        Lawnotation is an initiative of the Digital Legal Studies cluster in the
         Sectorplan Social Sciences and Humanities (SSH) - Rechtsgeleerdheid and
         other Dutch universities that are collaboratively working on questions
         related to the digitalisation of law. The research is made possible by
