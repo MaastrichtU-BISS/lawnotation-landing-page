@@ -242,6 +242,8 @@ header li a {
   bottom: 30%;
   right: 40%;
   box-shadow: 4px 4px 10px 1px rgba(38, 32, 32, 0.6);
+  max-width: none;
+  filter: sepia(.1);
 }
 
 .member-container {
@@ -294,7 +296,7 @@ header li a {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 }
 .contibutors_container {
