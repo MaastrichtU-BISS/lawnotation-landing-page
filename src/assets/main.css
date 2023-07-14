@@ -377,25 +377,6 @@ a {
   line-height: 1.3rem;
 }
 
-.intro-text h1 {
-  position: relative;
-  padding: 10px;
-  text-align: center;
-  z-index: 1;
-}
-
-.intro-text h1::after {
-  position: absolute;
-  top: 0;
-  left: 25%;
-  content: "";
-  background-color: #B6CDDA;
-  height: 100%;
-  width: 50%;
-  z-index: -1;
-  transform: skew(-5deg, -5deg);
-}
-
 .book-mark {
   position: absolute;
   background-color: #DAB6BD;
