@@ -31,10 +31,10 @@
       <DataSoftware v-if="read" />
     </Transition>
     <div class="readDatabtn-group">
-      <button class="readData-btn" v-if="read == false" @click="read = true">
+      <button class="btn-outline !bg-transparent" v-if="read == false" @click="read = true">
         Read more
       </button>
-      <button class="readData-btn" v-else @click="read = false">
+      <button class="btn-outline !bg-transparent" v-else @click="read = false">
         Read less
       </button>
     </div>
