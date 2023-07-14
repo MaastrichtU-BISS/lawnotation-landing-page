@@ -6,9 +6,9 @@
         data
       </h1>
     </div>
-    <div class="btn-container font-roboto-slab">
-      <a href="https://lawnotation.vercel.app" class="start-btn" target="_blank">Start now</a>
-      <a  href="#data&software" class="read-btn">Read more</a>
+    <div class="font-roboto-slab flex flex-col gap-2 p-3">
+      <a href="https://lawnotation.vercel.app" target="_blank"><button class="btn">Start now</button></a>
+      <a href="#data&software"><button class="btn-outline">Read more</button></a>
     </div>
   </section>
 </template>
