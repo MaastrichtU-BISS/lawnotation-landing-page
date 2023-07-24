@@ -9,9 +9,7 @@
     <!-- <h2 id="test" ref="scrollRef">Test</h2> -->
     <Contributors />
   </main>
-  <footer>
   <Footer @contact="activeTab = 'contact'"/>
-  </footer>
 </template>
 
 <script setup>

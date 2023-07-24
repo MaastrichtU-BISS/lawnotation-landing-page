@@ -1,16 +1,18 @@
 <template>
-  <section id="contactus" ref="scrollRef">
-    <h2>Interested in joining the development or in using the platform?</h2>
-    <p>
-      Send an email to:
-      <span
-        ><a href="mailto: law-techlab@maastrichtuniversity.nl"
-          >law-techlab@maastrichtuniversity.nl</a
-        ></span
-      >
-    </p>
-    <!-- <a name="contactus"></a> -->
-  </section>
+  <footer>
+    <section id="contactus" ref="scrollRef">
+      <h2>Interested in joining the development or in using the platform?</h2>
+      <p>
+        Send an email to:
+        <span
+          ><a href="mailto: law-techlab@maastrichtuniversity.nl"
+            >law-techlab@maastrichtuniversity.nl</a
+          ></span
+        >
+      </p>
+      <!-- <a name="contactus"></a> -->
+    </section>
+  </footer>
 </template>
 <script setup>
 import { onScrollIntersect } from "../composables/onScrollIntersect";
