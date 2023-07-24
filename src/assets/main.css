@@ -227,9 +227,9 @@ header li a {
   height: 80px;
   border-radius: 60%;
   position: relative;
-  bottom: 30%;
+  bottom: 25%;
   right: 40%;
-  box-shadow: 4px 4px 10px 1px rgba(38, 32, 32, 0.6);
+  box-shadow: 4px 4px 10px 1px rgba(71, 43, 0, 0.3);
   max-width: none;
   filter: sepia(.1);
 }
