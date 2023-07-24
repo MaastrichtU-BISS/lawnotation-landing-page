@@ -121,8 +121,7 @@
               >Sander van Essel</a
             >
           </h4>
-          <p>Frontend development, backend development, data engineering</p> <br>
-         
+          <p>Frontend development, backend development, data engineering</p>
           <p>
             <a href="https://www.biss-institute.com/"
               >Brightlands Institute for Smart Society</a
