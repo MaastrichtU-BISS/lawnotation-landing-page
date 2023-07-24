@@ -18,7 +18,7 @@
           <p>Law, AI</p>
           <p>
             <a
-              href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab/law-and-tech-research"
+              href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"
             >
               Maastricht Law and Tech Lab</a
             >
@@ -45,7 +45,7 @@
           <p>data engineering, front-end development, back-end development</p>
           <p>
             <a
-              href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab/law-and-tech-research"
+              href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"
             >
               Maastricht Law and Tech Lab</a
             >
@@ -97,7 +97,7 @@
           <p>data engineering, NLP, machine learning, AI</p>
           <p>
             <a
-              href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab/law-and-tech-research"
+              href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"
             >
               Maastricht Law and Tech Lab</a
             >
