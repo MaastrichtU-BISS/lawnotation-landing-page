@@ -30,7 +30,7 @@
     <Transition name="readData">
       <DataSoftware v-if="read" />
     </Transition>
-    <div class="readDatabtn-group">
+    <div class="readDatabtn-group my-8">
       <button class="btn-outline !bg-transparent" v-if="read == false" @click="read = true">
         Read more
       </button>

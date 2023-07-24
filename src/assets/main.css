@@ -119,9 +119,14 @@ header li a {
 }
 
 .readDatabtn-group {
-  width: 60%;
   display: flex;
   justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  .readDatabtn-group {
+    width: 60%;
+  }
 }
 
 .readData-enter-active,
@@ -487,7 +492,6 @@ main {
     box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.1);
   }
   .intro-text {
-    margin: 1rem 0;
     width: 60%;
   }
   .intro-text p {
