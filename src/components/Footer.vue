@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="bg-[length:80px]">
     <section id="contactus" ref="scrollRef">
       <h2>Interested in joining the development or in using the platform?</h2>
       <p>
