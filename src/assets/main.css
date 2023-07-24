@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h2 {
+    @apply font-roboto-slab text-4xl;
+  }
+}
+
 body {
   color: #472B00;
 }
@@ -379,7 +385,7 @@ footer h2 {
 
 footer p {
   padding: 10px;
-  font-size: 17px;
+  font-size: 20px;
   margin-bottom: 3em;
 }
 

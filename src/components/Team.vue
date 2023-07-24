@@ -2,7 +2,7 @@
   <section id="team" class="develpoer_team" ref="scrollRef">
     <!-- <a ></a> -->
     <span  class="team_title">
-      <h1>Team</h1>
+      <h2 class="underline underline-offset-[5px]">Team</h2>
     </span>
     <div class="card">
       <div class="member-container">

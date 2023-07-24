@@ -1,7 +1,7 @@
 <template>
-  <section class="contibutors_container">
+  <section class="contibutors_container pt-8">
     <div class="Contributors_title">
-      <h1>Consortium partners</h1>
+      <h2 class="underline underline-offset-[5px] pb-2">Consortium partners</h2>
     </div>
     <div class="Contributors_list">
       <nav>

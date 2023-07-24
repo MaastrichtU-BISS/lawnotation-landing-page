@@ -3,7 +3,7 @@
   <section  ref="scrollRef" class="Introduction-container">
     <div class="book-mark"></div>
     <div class="intro-text">
-      <h2 class="font-roboto-slab text-4xl z-10 relative">What is Lawnotation?</h2>
+      <h2 class="z-10 relative">What is Lawnotation?</h2>
       <p>
         The Lawnotation project (2022 – 2024) aims to develop an infrastructure
         that allows researchers to making legal data and annotation schemes
