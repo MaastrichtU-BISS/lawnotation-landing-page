@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="intro-title-section" ref="scrollRef">
+  <section id="home" class="intro-title-section bg-[length:80px] z-0" ref="scrollRef">
     <div class="container mx-auto p-4 flex flex-col gap-4">
       <div class="catch-title">
         <h1 class="font-roboto-slab">
