@@ -8,6 +8,15 @@
   }
 }
 
+@layer components {
+  .member-info > h4 {
+    @apply font-roboto-slab font-bold text-lg;
+  }
+  .member-info > h4 > a {
+    @apply underline underline-offset-2;
+  }
+}
+
 body {
   color: #472B00;
 }
@@ -245,11 +254,6 @@ header li a {
 }
 
 .member-info p a {
-  text-decoration: underline;
-}
-
-.member-info h4 a {
-  font-size: 18px;
   text-decoration: underline;
 }
 
