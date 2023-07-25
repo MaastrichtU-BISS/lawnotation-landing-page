@@ -1,20 +1,23 @@
 <template>
-  <footer class="bg-[length:80px]">
-    <section id="contactus" ref="scrollRef">
-      <h2>Interested in joining the development or in using the platform?</h2>
-      <p>
+  <footer class="bg-[length:80px] px-4">
+    <Contributors />
+    <section id="contactus" class="mt-8 lg:mt-4" ref="scrollRef">
+      <h3 class="text-xl">
+        Interested in joining the development or in using the platform?
+      </h3>
+      <p class="text-xl mt-4 mb-8">
         Send an email to:
-        <span
-          ><a href="mailto: law-techlab@maastrichtuniversity.nl"
-            >law-techlab@maastrichtuniversity.nl</a
-          ></span
+        <a
+          class="underline underline-offset-2 text-[#0D5984]"
+          href="mailto: law-techlab@maastrichtuniversity.nl"
+          >law-techlab@maastrichtuniversity.nl</a
         >
       </p>
-      <!-- <a name="contactus"></a> -->
     </section>
   </footer>
 </template>
 <script setup>
+import Contributors from "./Contributors.vue";
 import { onScrollIntersect } from "../composables/onScrollIntersect";
 import { ref, onMounted, onUnmounted } from "vue";
 

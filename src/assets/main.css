@@ -15,9 +15,23 @@
   .member-info > h4 > a {
     @apply underline underline-offset-2;
   }
+
+  #consortium_partners > li {
+    @apply py-2;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 body {
+  background-color: white;
   color: #472B00;
 }
 
@@ -46,9 +60,9 @@ header li a {
   header {
     justify-content: center;
   }
-  header li a {
+  /* header li a {
     display: none;
-  }
+  } */
   header .navItems {
     padding: 0;
     margin: 0;
@@ -276,33 +290,6 @@ header li a {
     object-position: center;
   }
 }
-.contibutors_container {
-  margin-top: 5%;
-  background-color: #EDE6DA;
-  height: 100%;
-}
-
-.Contributors_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.Contributors_title h1 {
-  padding: 10px;
-  margin-top: 10px;
-  border-bottom: 2px solid #000;
-  margin-bottom: 10px;
-}
-
-.Contributors_list {
-  padding: 20px;
-}
-
-.Contributors_list nav {
-  display: block;
-}
 
 .Contributors_list nav ul li {
   margin-bottom: 1rem;
@@ -315,31 +302,6 @@ header li a {
 
 .Contributors_list span {
   margin-left: 10px;
-}
-
-@media only screen and (min-width: 890px) {
-  .Contributors_list nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 5rem;
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  scroll-padding-top: 100px;
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: white;
-}
-
-a {
-  text-decoration: none;
 }
 
 .Introduction-container {
@@ -372,6 +334,11 @@ a {
           clip-path: polygon(100% 100%, 50% 70%, 0 100%, 0% 0%, 100% 0, 100% 60%);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   max-width: 100%;
   display: flex;
@@ -379,29 +346,6 @@ footer {
   flex-direction: column;
   background-color: #EDE6DA;
   background-image: url(./img/plus.svg);
-  padding-left: 4%;
-}
-
-footer h2 {
-  font-size: 20px;
-  margin: 10px;
-}
-
-footer p {
-  padding: 10px;
-  font-size: 20px;
-  margin-bottom: 3em;
-}
-
-footer p a {
-  color: #0D5984;
-  text-decoration: underline;
-  font-size: 20px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
 }
 
 .intro-title-section {
