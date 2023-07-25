@@ -2,7 +2,7 @@
   <section id="home" class="intro-title-section bg-[length:80px] z-0" ref="scrollRef">
     <div class="container mx-auto p-4 flex flex-col gap-4 lg:gap-8">
       <div class="catch-title">
-        <h1 class="font-roboto-slab">
+        <h1 class="font-roboto-slab text-6xl leading-normal md:text-7xl md:leading-normal lg:text-9xl lg:leading-normal">
           <span>Find,</span> <span>annotate</span> and <span>store</span> legal data
         </h1>
       </div>
