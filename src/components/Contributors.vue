@@ -1,5 +1,5 @@
 <template>
-  <section class="contibutors_container pt-8 bg-[length:80px]">
+  <section id="partners" class="contibutors_container pt-8 bg-[length:80px]" ref="scrollRef">
     <div class="w-full lg:flex justify-center">
       <h2 class="underline underline-offset-[5px] pb-2">Consortium partners</h2>
     </div>
