@@ -318,10 +318,6 @@ footer {
   background-image: url(../assets/img/plus.svg);
 }
 
-.font-roboto-slab, .font-roboto-slab > * {
-  font-family: "Roboto Slab";
-}
-
 .catch-title {
   display: flex;
   flex-direction: column;
