@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-[length:80px] px-4">
-    <Contributors />
+    <Partners />
     <section id="contact" class="mt-8 lg:mt-4" ref="scrollRef">
       <h3 class="text-xl">
         Interested in joining the development or in using the platform?
@@ -17,7 +17,7 @@
   </footer>
 </template>
 <script setup>
-import Contributors from "./Contributors.vue";
+import Partners from "./Partners.vue";
 import { onScrollIntersect } from "../composables/onScrollIntersect";
 import { ref, onMounted, onUnmounted } from "vue";
 
