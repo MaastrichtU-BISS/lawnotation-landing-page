@@ -11,7 +11,7 @@
         </h1>
       </div>
       <div class="font-roboto-slab flex flex-col gap-4 md:flex-row">
-        <a href="https://lawnotation.vercel.app" target="_blank"
+        <a href="https://app.lawnotation.org" target="_blank"
           ><button class="btn">Start now</button></a
         >
         <a href="#data&software"><button class="btn-outline">Read more</button></a>
