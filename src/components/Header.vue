@@ -20,7 +20,7 @@
           <a class="item" href="#partners" @click="activeTab = 'partners'">Partners</a>
         </li>
         <li :class="{ active: contact }">
-          <a class="item" href="#contactus" @click="activeTab = 'contact'">Contact us</a>
+          <a class="item" href="#contact" @click="activeTab = 'contact'">Contact</a>
         </li>
       </ul>
     </div>
