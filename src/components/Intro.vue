@@ -51,8 +51,7 @@ const scrollRef = ref({});
 const emit = defineEmits(["data"]);
 const read = ref(false);
 
-function onEnter(entry) {
-  console.log("Entering", entry);
+function onEnter() {
   emit("data");
 }
 // When the component is mounted, start observing

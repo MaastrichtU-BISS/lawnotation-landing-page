@@ -1,14 +1,8 @@
 import { onIntersect } from "./onIntersect";
 
-export const onScrollIntersect = (elementToWatch, onEnter) => {
+export const onScrollIntersect = (elementToWatch, onEnter, threshold = 0.8) => {
 
-  function onExit(entry) {
-    console.log("exiting", entry);
-  }
-
-  console.log("onEnter", onEnter);
-
-  return onIntersect(elementToWatch, onEnter, onExit, false, {
-    threshold: 0.8,
+  return onIntersect(elementToWatch, onEnter, null, false, {
+    threshold,
   });
 };

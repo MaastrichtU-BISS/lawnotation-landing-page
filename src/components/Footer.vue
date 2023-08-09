@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-[length:80px] px-4">
-    <Partners />
+  <footer id="partners&contact" class="bg-[length:80px] px-4">
+    <Partners @partners="emit('partners')" />
     <section id="contact" class="mt-8 lg:mt-4" ref="scrollRef">
       <h3 class="text-xl">
         Interested in joining the development or in using the platform?
@@ -24,15 +24,14 @@ import { ref, onMounted, onUnmounted } from "vue";
 const observer = ref({});
 const scrollRef = ref({});
 
-const emit = defineEmits(["contact"]);
+const emit = defineEmits(["partnersAndContact"]);
 
-function onEnter(entry) {
-  console.log("Entering", entry);
-  emit("contact");
+function onEnter() {
+  emit("partnersAndContact");
 }
 // When the component is mounted, start observing
 onMounted(() => {
-  observer.value = onScrollIntersect(scrollRef.value, onEnter);
+  observer.value = onScrollIntersect(scrollRef.value, onEnter, 1);
 });
 
 // When the component is removed, disconnect the observer (clean-up step)

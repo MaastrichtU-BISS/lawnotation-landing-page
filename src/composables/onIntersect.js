@@ -18,7 +18,6 @@ export const onIntersect = (
     // If the element to watch is intersecting within the threshold
     if (entry && entry.isIntersecting) {
       // Run the callback
-      console.log(callback)
       callback(entry.target.id);
 
       // If the callback should only run once, unobserve the element
@@ -28,9 +27,9 @@ export const onIntersect = (
     }
 
     // If the element is not intersecting, run the (optional) unintersecting callback
-    else {
-      outCallback(entry.target.id);
-    }
+    // else {
+    //   outCallback(entry.target.id);
+    // }
   }, options);
 
   // Observe the elementObserve the element

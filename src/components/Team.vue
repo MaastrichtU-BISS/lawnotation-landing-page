@@ -1,5 +1,5 @@
 <template>
-  <section id="team" class="develpoer_team" ref="scrollRef">
+  <section id="team" class="develpoer_team my-32" ref="scrollRef">
     <!-- <a ></a> -->
     <span  class="team_title">
       <h2 class="underline underline-offset-[5px]">Team</h2>
@@ -143,12 +143,11 @@ const scrollRef = ref({});
 const emit = defineEmits(["team"]);
 
 function onEnter(entry) {
-  console.log("Entering", entry);
   emit("team");
 }
 // When the component is mounted, start observing
 onMounted(() => {
-  observer.value = onScrollIntersect(scrollRef.value, onEnter);
+  observer.value = onScrollIntersect(scrollRef.value, onEnter, .6);
 });
 
 // When the component is removed, disconnect the observer (clean-up step)
