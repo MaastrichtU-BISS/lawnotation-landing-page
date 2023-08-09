@@ -31,7 +31,7 @@ function onEnter() {
 }
 // When the component is mounted, start observing
 onMounted(() => {
-  observer.value = onScrollIntersect(scrollRef.value, onEnter, 1);
+  observer.value = onScrollIntersect(scrollRef.value, onEnter);
 });
 
 // When the component is removed, disconnect the observer (clean-up step)
