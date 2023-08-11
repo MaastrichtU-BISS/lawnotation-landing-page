@@ -5,8 +5,8 @@
         <h1
           class="font-roboto-slab text-6xl leading-normal md:text-7xl md:leading-normal lg:text-9xl lg:leading-normal"
         >
-          <span class="font-roboto-slab">Find,</span>
-          <span class="font-roboto-slab">annotate</span> and
+          <span class="font-roboto-slab">Find, </span>
+          <span class="font-roboto-slab">annotate,</span> and
           <span class="font-roboto-slab">store</span> legal data
         </h1>
       </div>
