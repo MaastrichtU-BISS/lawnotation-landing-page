@@ -7,7 +7,7 @@
         >
           <span class="font-roboto-slab">Find, </span>
           <span class="font-roboto-slab">annotate,</span> and
-          <span class="font-roboto-slab">store</span> legal data
+          <span class="font-roboto-slab">publish</span> legal data
         </h1>
       </div>
       <div class="font-roboto-slab flex flex-col gap-4 md:flex-row">
