@@ -14,7 +14,9 @@
         <a href="https://app.lawnotation.org/auth/login"
           ><button class="btn">Start now</button></a
         >
-        <a href="#data&software"><button class="btn-outline">Read more</button></a>
+        <a href="https://docs.lawnotation.org" target="_blank"
+          ><button class="btn-outline">Documentation</button></a
+        >
       </div>
     </div>
   </section>
