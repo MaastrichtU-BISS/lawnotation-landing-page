@@ -12,10 +12,13 @@
       </div>
       <div class="font-roboto-slab flex flex-col gap-4 md:flex-row">
         <a href="https://app.lawnotation.org/auth/login"
-          ><button class="btn">Start now</button></a
+          ><button class="btn hover:opacity-80 transition ease-in-out delay-50">Start now</button></a
         >
         <a href="https://docs.lawnotation.org" target="_blank"
-          ><button class="btn-outline">Documentation</button></a
+          ><button class="btn-outline hover:bg-blue-100 transition ease-in-out delay-50">Documentation</button></a
+        >
+        <a href="https://app.lawnotation.org/archives" target="_blank"
+          ><button class="btn-outline hover:bg-blue-100 transition ease-in-out delay-50">Find documents</button></a
         >
       </div>
     </div>
