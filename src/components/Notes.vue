@@ -2,7 +2,7 @@
     <h1 class="font-bold text-2xl text-center p-3">Lawnotation is an open-source platform for labeling text</h1>
     <div class="grid sm:grid-cols-2 4k:grid-cols-4 max-w-4xl 4k:max-w-screen-2xl gap-8 mx-auto p-8">
         <!-- Card 1 -->
-        <Note rotate=-2.18 title="One-Stop Shop" text="Find data, create projects, draft annotation guidelines, calculate interrater agreement,
+        <Note :rotate=-2.18 title="One-Stop Shop" text="Find data, create projects, draft annotation guidelines, calculate interrater agreement,
                 and publish your data all in one place">
             <Pin class="absolute right-0 top-[-.75rem] rotate-[37.8deg]" />
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -13,7 +13,7 @@
         </Note>
 
         <!-- Card 2 -->
-        <Note rotate=1.55 title="Intuitive" text="Features for a variety of tasks. No clunky clicking">
+        <Note :rotate=1.55 title="Intuitive" text="Features for a variety of tasks. No clunky clicking">
             <Pin class="absolute right-[60%] top-[-.75rem] rotate-[11.93deg]" />
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-10 h-10 mb-4">
@@ -23,7 +23,7 @@
         </Note>
 
         <!-- Card 3 -->
-        <Note rotate=2.09 title="Analyze Intercoder Reliability"
+        <Note :rotate=2.09 title="Analyze Intercoder Reliability"
             text="Calculate in a variety of ways to what extent annotators agree">
             <Pin class="absolute right-[70%] top-[-.75rem] rotate-[-12.23deg]" />
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -34,7 +34,7 @@
         </Note>
 
         <!-- Card 4 -->
-        <Note rotate=-1.95 title="Share your Work" text="Make your datasets, labels, and annotated data findable">
+        <Note :rotate=-1.95 title="Share your Work" text="Make your datasets, labels, and annotated data findable">
             <Pin class="absolute right-[40%] top-[-.75rem] rotate-[3.28deg]" />
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-10 h-10 mb-4">
