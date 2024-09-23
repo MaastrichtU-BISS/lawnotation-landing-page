@@ -2,7 +2,7 @@
     <h1 class="font-bold text-2xl text-center p-3">Lawnotation is an open-source platform for labeling text</h1>
     <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto p-8">
         <!-- Card 1 -->
-        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[-3deg]">
+        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[-2.18deg]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-10 h-10 mb-4">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -14,7 +14,7 @@
         </div>
         
         <!-- Card 2 -->
-        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[1deg]">
+        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[1.55deg]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-10 h-10 mb-4">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -25,7 +25,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[-deg]">
+        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[2.09deg]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-10 h-10 mb-4">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -36,7 +36,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[-1deg]">
+        <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[-1.95deg]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-10 h-10 mb-4">
                 <path stroke-linecap="round" stroke-linejoin="round"
