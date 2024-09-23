@@ -1,5 +1,5 @@
 <template>
-  <footer id="partners&contact" class="bg-[length:80px] px-4">
+  <footer id="partners&contact" class="bg-beige bg-[length:80px] px-4">
     <Partners @partners="emit('partners')" />
     <section id="contact" class="mt-8 lg:mt-4" ref="scrollRef">
       <h3 class="text-xl">
