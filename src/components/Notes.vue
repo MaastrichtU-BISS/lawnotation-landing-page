@@ -1,6 +1,6 @@
 <template>
     <h1 class="font-bold text-2xl text-center p-3">Lawnotation is an open-source platform for labeling text</h1>
-    <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto p-8">
+    <div class="grid sm:grid-cols-2 4k:grid-cols-4 max-w-4xl 4k:max-w-screen-2xl gap-8 mx-auto p-8">
         <!-- Card 1 -->
         <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[-2.18deg]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"

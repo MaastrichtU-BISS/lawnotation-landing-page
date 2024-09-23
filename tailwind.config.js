@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         beige: '#f6f2ec',
       },
+      screens: {
+        '4k': '3840px',
+      },
     },
   },
   plugins: [],
