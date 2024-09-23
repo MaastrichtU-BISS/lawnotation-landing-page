@@ -9,14 +9,15 @@
 }
 
 @layer components {
-  .member-info > h4 {
+  .member-info>h4 {
     @apply font-roboto-slab font-bold text-lg;
   }
-  .member-info > h4 > a {
+
+  .member-info>h4>a {
     @apply underline underline-offset-2;
   }
 
-  #consortium_partners > li {
+  #consortium_partners>li {
     @apply py-2;
   }
 }
@@ -97,9 +98,9 @@ header li a {
 
 .profile-photo {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top;
-     object-position: top;
+  object-position: top;
   width: 80px;
   height: 80px;
   border-radius: 60%;
@@ -117,7 +118,6 @@ header li a {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #EDE6DA;
   border-radius: 10px;
 }
 
@@ -145,10 +145,12 @@ header li a {
     justify-content: center;
     margin-bottom: 2%;
   }
+
   .card:nth-child(2) .member-container {
     height: 100%;
     justify-content: flex-start;
   }
+
   .card:nth-child(2) .profile-photo {
     object-position: center;
   }
@@ -180,7 +182,7 @@ header li a {
   z-index: 1;
   right: 30px;
   -webkit-clip-path: polygon(100% 100%, 50% 70%, 0 100%, 0% 0%, 100% 0, 100% 60%);
-          clip-path: polygon(100% 100%, 50% 70%, 0 100%, 0% 0%, 100% 0, 100% 60%);
+  clip-path: polygon(100% 100%, 50% 70%, 0 100%, 0% 0%, 100% 0, 100% 60%);
 }
 
 main {
@@ -247,7 +249,8 @@ footer {
   top: 0.5vh;
 }
 
-.btn, .btn-outline {
+.btn,
+.btn-outline {
   font-family: "Roboto Slab";
   background-color: #0D5984;
   color: #fff;
@@ -263,7 +266,9 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .btn, .btn-outline {
+
+  .btn,
+  .btn-outline {
     font-size: 1.5rem;
   }
 }
@@ -278,9 +283,11 @@ footer {
     margin: 4rem 10% 0 10%;
     box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.1);
   }
+
   .intro-text {
     width: 60%;
   }
+
   .intro-text p {
     margin-top: 2rem;
     line-height: 1.8rem;
