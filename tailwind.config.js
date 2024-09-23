@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         beige: '#f6f2ec',
+        'dark-brown': '#472B00',
       },
       screens: {
         '4k': '3840px',
