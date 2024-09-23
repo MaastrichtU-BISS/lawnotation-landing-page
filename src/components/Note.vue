@@ -1,5 +1,5 @@
 <template>
-    <div :class="`bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[${rotate}deg]`">
+    <div :class="`bg-beige p-6 rounded-lg shadow-lg shadow-dark-brown/20 flex flex-col items-start transform rotate-[${rotate}deg]`">
         <slot></slot>
         <h2 class="font-bold text-lg mb-2">{{ title }}</h2>
         <p class="text-sm">{{ text }}</p>
