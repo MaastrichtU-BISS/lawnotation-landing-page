@@ -3,6 +3,7 @@
 
   <main>
     <Title @home="setActiveTabTo('home')" />
+    <Notes @home="setActiveTabTo('notes')" />
     <Intro  @data="setActiveTabTo('data')" />
     <Team @team="setActiveTabTo('team')" />
   </main>
@@ -13,6 +14,7 @@
 <script setup lang="ts">
 import Team from "./components/Team.vue";
 import Header from "./components/Header.vue";
+import Notes from "./components/Notes.vue";
 import Intro from "./components/Intro.vue";
 import Footer from "./components/Footer.vue";
 import Title from "./components/Title.vue";
