@@ -8,8 +8,8 @@
         <li :class="{ active: activeTab === 'home' }">
           <a class="item" href="#home">Home</a>
         </li>
-        <li :class="{ active: activeTab === 'data' }">
-          <a class="item" href="#data&software">About</a>
+        <li :class="{ active: activeTab === 'about' }">
+          <a class="item" href="#about">About</a>
         </li>
         <li :class="{ active: activeTab === 'team' }">
           <a class="item" href="#team">Team</a>

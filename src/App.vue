@@ -4,7 +4,7 @@
   <main>
     <Title @home="setActiveTabTo('home')" />
     <Notes @home="setActiveTabTo('notes')" />
-    <Intro  @data="setActiveTabTo('data')" />
+    <Intro  @data="setActiveTabTo('about')" />
     <Team @team="setActiveTabTo('team')" />
   </main>
   

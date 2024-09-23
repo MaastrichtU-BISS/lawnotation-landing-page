@@ -1,5 +1,5 @@
 <template>
-  <span id="data&software"></span>
+  <span id="about"></span>
   <section  ref="scrollRef" class="Introduction-container">
     <div class="book-mark"></div>
     <div class="intro-text">
