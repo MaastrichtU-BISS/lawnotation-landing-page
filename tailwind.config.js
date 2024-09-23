@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         'roboto-slab': ['Roboto Slab'],
       },
+      colors: {
+        beige: '#f6f2ec',
+      },
     },
   },
   plugins: [],

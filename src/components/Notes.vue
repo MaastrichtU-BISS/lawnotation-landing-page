@@ -12,7 +12,7 @@
             <p class="text-sm">Find data, create projects, draft annotation guidelines, calculate interrater agreement,
                 and publish your data all in one place.</p>
         </div>
-        
+
         <!-- Card 2 -->
         <div class="bg-beige p-6 rounded-lg shadow-md flex flex-col items-start transform rotate-[1.55deg]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -47,21 +47,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-import { ref, onMounted, onUnmounted } from "vue";
-
-</script>
-
-<style>
-/* Adding beige color to extend Tailwind's color palette */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer utilities {
-    .bg-beige {
-        background-color: #f6f2ec;
-    }
-}
-</style>
