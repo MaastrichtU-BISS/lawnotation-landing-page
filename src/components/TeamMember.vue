@@ -2,7 +2,7 @@
     <div class="card">
         <div class="member-container bg-beige">
             <div class="member-img">
-                <img :src="image" alt="" class="profile-photo" />
+                <img :src="imageUrl(imageName)" alt="" class="profile-photo" />
             </div>
             <div class="member-info">
                 <h4>
@@ -15,9 +15,12 @@
 </template>
 
 <script setup lang="ts">
-const { image, link, name } = defineProps({
-    image: String,
+const { imageName, link, name } = defineProps({
+    imageName: String,
     link: String,
     name: String,
 });
+function imageUrl(name: string) {
+    return new URL(`../assets/img/${name}.jpg`, import.meta.url).href;
+}
 </script>
