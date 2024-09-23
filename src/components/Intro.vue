@@ -1,6 +1,6 @@
 <template>
   <span id="about"></span>
-  <section  ref="scrollRef" class="Introduction-container">
+  <section  ref="scrollRef" class="Introduction-container bg-beige">
     <div class="book-mark"></div>
     <div class="intro-text">
       <h2 class="z-10 relative">What is Lawnotation?</h2>

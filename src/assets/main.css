@@ -156,7 +156,6 @@ header li a {
 
 .Introduction-container {
   position: relative;
-  background-color: #EDE6DA;
   display: block;
   height: 100%;
   padding: 15px;
@@ -275,7 +274,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #EDE6DA;
     padding: 0;
     font-size: 18px;
     margin: 4rem 10% 0 10%;
