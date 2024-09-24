@@ -6,16 +6,16 @@
       /></a>
       <ul class="hidden md:flex justify-around gap-8 list-none items-center">
         <li :class="{ active: activeTab === 'home' }">
-          <a class="item" href="#home">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li :class="{ active: activeTab === 'about' }">
-          <a class="item" href="#about">About</a>
+          <a href="#about">About</a>
         </li>
         <li :class="{ active: activeTab === 'team' }">
-          <a class="item" href="#team">Team</a>
+          <a href="#team">Team</a>
         </li>
         <li :class="{ active: activeTab === 'partners&contact' }">
-          <a class="item" href="#partners&contact">Partners & Contact</a>
+          <a href="#partners&contact">Partners & Contact</a>
         </li>
       </ul>
     </div>
