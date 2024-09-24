@@ -5,9 +5,9 @@
                 <img :src="imageUrl(imageName)" alt="" class="profile-photo" />
             </div>
             <div class="member-info">
-                <h4>
+                <h3>
                     <a :href="link">{{ name }}</a>
-                </h4>
+                </h3>
                 <slot></slot>
             </div>
         </div>
