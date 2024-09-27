@@ -1,6 +1,6 @@
 <template>
     <section class="pt-8">
-        <h1 class="font-bold text-2xl text-center p-3">Lawnotation is an open-source platform for text labeling</h1>
+        <h1 class="font-bold text-2xl text-center p-3">Lawnotation is a free open-source platform for text labeling</h1>
         <div class="grid sm:grid-cols-2 4k:grid-cols-4 max-w-4xl 4k:max-w-screen-2xl gap-8 mx-auto p-8">
             <!-- Card 1 -->
             <Note :rotate=-2.18 title="One-Stop Shop" text="Find data, create projects, draft annotation guidelines, calculate interrater agreement,
