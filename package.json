@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/roboto-slab": "^5.1.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {

@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'roboto-slab': ['Roboto Slab'],
+        'roboto-slab': ['Roboto Slab Variable'],
       },
       colors: {
         beige: '#f6f2ec',
