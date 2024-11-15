@@ -20,6 +20,9 @@
         <a href="https://app.lawnotation.org/archives" target="_blank"
           ><button class="btn-outline hover:bg-blue-100 transition ease-in-out delay-50">Find documents</button></a
         >
+        <a href="https://github.com/MaastrichtU-BISS/lawnotation" target="_blank"
+          ><button class="underline border-none decoration-4 underline-offset-8 text-2xl text-sky-800 content-center p-4">Our code</button></a
+        >
       </div>
     </div>
   </section>
