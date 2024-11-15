@@ -10,7 +10,7 @@
         <a
           class="underline underline-offset-2 text-[#0D5984]"
           href="mailto: law-techlab@maastrichtuniversity.nl"
-          >law-techlab@maastrichtuniversity.nl</a
+          >biss-devs@maastrichtuniversity.nl</a
         >
       </p>
     </section>
