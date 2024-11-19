@@ -9,7 +9,7 @@
         Send an email to:
         <a
           class="underline underline-offset-2 text-[#0D5984]"
-          href="mailto: lbiss-devs@maastrichtuniversity.nl"
+          href="mailto:biss-devs@maastrichtuniversity.nl"
           >biss-devs@maastrichtuniversity.nl</a
         >
       </p>
