@@ -6,7 +6,7 @@
             </div>
             <div class="member-info">
                 <h3>
-                    <a class="hover:underline" :href="link">{{ name }}</a>
+                    <a class="underline font-bold" :href="link">{{ name }} </a>
                 </h3>
                 <slot></slot>
             </div>
