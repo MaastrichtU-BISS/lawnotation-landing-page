@@ -4,7 +4,7 @@
     <span class="team_title">
       <h2 class="underline underline-offset-[5px]">Team</h2>
     </span>
-    <TeamMember name="Prof. Gijs van Dijck" link="https://www.biss-institute.com/team/Gijs-van-Dijck/"
+    <TeamMember name="Prof. Gijs van Dijck" link="https://www.biss-institute.com/en/team/gijs-van-dijck"
       imageName="gijs">
       <p>Law, AI</p>
       <p>
@@ -15,7 +15,7 @@
         <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society</a>
       </p>
     </TeamMember>
-    <TeamMember name="Carlos Aguilera" link="https://www.biss-institute.com/team/Carlos-Aguilera/"
+    <TeamMember name="Carlos Aguilera" link="https://www.biss-institute.com/en/team/carlos-aguilera"
       imageName="carlos">
       <p>data engineering, front-end development, back-end development</p>
       <p>
@@ -26,12 +26,12 @@
         <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society</a>
       </p>
     </TeamMember>
-    <TeamMember name="Chris van der Lans" link="https://www.biss-institute.com/team/chris-van-der-lans/"
+    <TeamMember name="Chris van der Lans" link="https://www.biss-institute.com/en/team/chris-van-der-lans"
       imageName="chris">
       <p> front-end development, user experience (UX), information architecture, human-centric design </p>
       <p><a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society</a></p>
     </TeamMember>
-    <TeamMember name="Shashank Chakravarthy" link="https://www.biss-institute.com/team/Shashank-Chakravarthy/"
+    <TeamMember name="Shashank Chakravarthy" link="https://www.biss-institute.com/en/team/shashank-chakravarthy"
       imageName="shashank">
       <p>data engineering, NLP, machine learning, AI</p>
       <p>
@@ -42,7 +42,7 @@
         <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society</a>
       </p>
     </TeamMember>
-    <TeamMember name="Sander van Essel" link="https://www.biss-institute.com/team/sander-van-essel/"
+    <TeamMember name="Sander van Essel" link="https://www.biss-institute.com/en/team/sander-van-essel"
       imageName="sander">
       <p>Frontend development, backend development, data engineering</p>
       <p>
