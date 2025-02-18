@@ -107,7 +107,7 @@ header li a {
   right: 40%;
   box-shadow: 4px 4px 10px 1px rgba(71, 43, 0, 0.3);
   max-width: none;
-  filter: sepia(.1);
+  filter: grayscale(75%);
 }
 
 .member-container {
@@ -128,9 +128,9 @@ header li a {
   text-transform: uppercase;
 }
 
-.member-info p a {
+/* .member-info p a {
   text-decoration: underline;
-}
+} */
 
 .member-info h4 {
   text-align: start;
