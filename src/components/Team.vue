@@ -1,5 +1,5 @@
 <template>
-  <section id="team" class="develpoer_team my-32" ref="scrollRef">
+  <section id="team" class="developer_team my-32" ref="scrollRef">
     <!-- <a ></a> -->
     <span class="team_title">
       <h2 class="underline underline-offset-[5px]">Team</h2>
