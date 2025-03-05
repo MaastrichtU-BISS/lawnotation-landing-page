@@ -103,8 +103,8 @@ header li a {
   height: 80px;
   border-radius: 60%;
   position: relative;
-  bottom: 25%;
-  right: 40%;
+  bottom: 3rem;
+  right: 2rem;
   box-shadow: 4px 4px 10px 1px rgba(71, 43, 0, 0.3);
   max-width: none;
   filter: grayscale(75%);
