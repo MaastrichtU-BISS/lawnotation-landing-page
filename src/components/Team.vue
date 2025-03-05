@@ -9,7 +9,7 @@
       <p>Law, AI</p>
 
       <ul>
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
             and Tech Lab
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -19,7 +19,7 @@
           </a>
         </li>
 
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -34,7 +34,7 @@
       <p>data engineering, front-end development, back-end development</p>
 
       <ul>
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
             and Tech Lab
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -44,7 +44,7 @@
           </a>
         </li>
 
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -60,7 +60,7 @@
       <p> front-end development, user experience (UX), information architecture, human-centric design </p>
 
       <ul>
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -76,7 +76,7 @@
       <p>data engineering, NLP, machine learning, AI</p>
 
       <ul>
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
             and Tech Lab
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -86,7 +86,7 @@
           </a>
         </li>
 
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -102,7 +102,7 @@
       <p>Frontend development, backend development, data engineering</p>
 
       <ul>
-        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+        <li>
           <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -138,3 +138,9 @@ onUnmounted(() => {
   observer.value.disconnect();
 });
 </script>
+
+<style scoped>
+li {
+  @apply border-b-[1.5px] border-transparent hover:border-current inline;
+}
+</style>
