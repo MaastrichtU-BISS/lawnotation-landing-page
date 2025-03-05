@@ -4,9 +4,9 @@
             <div class="member-img">
                 <img :src="imageUrl(imageName)" alt="" class="profile-photo" />
             </div>
-            <div class="member-info">
+            <div class="member-info flex flex-col gap-4">
                 <h3>
-                    <a class="underline font-bold" :href="link">{{ name }} </a>
+                    <a class="underline font-bold" :href="link">{{ name }}</a>
                 </h3>
                 <slot></slot>
             </div>
