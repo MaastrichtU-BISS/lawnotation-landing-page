@@ -15,7 +15,7 @@
           ><button class="btn hover:opacity-80 transition ease-in-out delay-50">Start now</button></a
         >
         <a href="https://docs.lawnotation.org" target="_blank"
-          ><button class="btn-outline hover:bg-blue-100 transition ease-in-out delay-50">Documentation</button></a
+          ><button class="btn-outline hover:bg-blue-100 transition ease-in-out delay-50">How to get started</button></a
         >
         <a href="https://app.lawnotation.org/archives" target="_blank"
           ><button class="btn-outline hover:bg-blue-100 transition ease-in-out delay-50">Find documents</button></a
