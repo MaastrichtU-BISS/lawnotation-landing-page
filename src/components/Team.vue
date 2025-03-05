@@ -3,101 +3,114 @@
     <span class="team_title">
       <h2 class="underline underline-offset-[5px]">Team</h2>
     </span>
+
     <TeamMember name="Prof. Gijs van Dijck" link="https://www.biss-institute.com/en/team/gijs-van-dijck"
       imageName="gijs">
       <p>Law, AI</p>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law and Tech Lab 
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
+      <ul>
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
+            and Tech Lab
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society 
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
-
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </TeamMember>
+
     <TeamMember name="Carlos Aguilera" link="https://www.biss-institute.com/en/team/carlos-aguilera" imageName="carlos">
       <p>data engineering, front-end development, back-end development</p>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law and Tech Lab
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
+      <ul>
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
+            and Tech Lab
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
-
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </TeamMember>
+
     <TeamMember name="Chris van der Lans" link="https://www.biss-institute.com/en/team/chris-van-der-lans"
       imageName="chris">
       <p> front-end development, user experience (UX), information architecture, human-centric design </p>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
-
+      <ul>
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </TeamMember>
+
     <TeamMember name="Shashank Chakravarthy" link="https://www.biss-institute.com/en/team/shashank-chakravarthy"
       imageName="shashank">
       <p>data engineering, NLP, machine learning, AI</p>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law and Tech Lab
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
+      <ul>
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
+            and Tech Lab
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
-
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </TeamMember>
+
     <TeamMember name="Sander van Essel" link="https://www.biss-institute.com/en/team/sander-van-essel"
       imageName="sander">
       <p>Frontend development, backend development, data engineering</p>
 
-      <p class="border-b-[1.5px] border-transparent hover:border-current inline">
-        <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="h-4 inline">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
-      </p>
-      
+      <ul>
+        <li class="border-b-[1.5px] border-transparent hover:border-current inline">
+          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="h-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </TeamMember>
   </section>
 </template>
