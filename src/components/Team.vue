@@ -10,7 +10,7 @@
 
       <ul>
         <li>
-          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
+          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab">Maastricht Law
             and Tech Lab
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -20,7 +20,7 @@
         </li>
 
         <li>
-          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+          <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -31,11 +31,11 @@
     </TeamMember>
 
     <TeamMember name="Carlos Aguilera" link="https://www.biss-institute.com/en/team/carlos-aguilera" imageName="carlos">
-      <p>data engineering, front-end development, back-end development</p>
+      <p>Data engineering, front-end development, back-end development</p>
 
       <ul>
         <li>
-          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
+          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab">Maastricht Law
             and Tech Lab
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -45,7 +45,7 @@
         </li>
 
         <li>
-          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+          <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -57,11 +57,11 @@
 
     <TeamMember name="Chris van der Lans" link="https://www.biss-institute.com/en/team/chris-van-der-lans"
       imageName="chris">
-      <p> front-end development, user experience (UX), information architecture, human-centric design </p>
+      <p>Front-end development, user experience (UX), information architecture, human-centric design </p>
 
       <ul>
         <li>
-          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+          <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -73,11 +73,11 @@
 
     <TeamMember name="Shashank Chakravarthy" link="https://www.biss-institute.com/en/team/shashank-chakravarthy"
       imageName="shashank">
-      <p>data engineering, NLP, machine learning, AI</p>
+      <p>Data engineering, NLP, machine learning, AI</p>
 
       <ul>
         <li>
-          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"> Maastricht Law
+          <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab">Maastricht Law
             and Tech Lab
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
@@ -87,7 +87,7 @@
         </li>
 
         <li>
-          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+          <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -103,7 +103,7 @@
 
       <ul>
         <li>
-          <a href="https://www.biss-institute.com/"> Brightlands Institute for Smart Society
+          <a href="https://www.biss-institute.com/">Brightlands Institute for Smart Society
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="h-4 inline">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
