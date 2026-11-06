@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/roboto-slab':
         specifier: ^5.1.0
         version: 5.1.0
+      legal-annotation-kit:
+        specifier: ^1.6.0
+        version: 1.6.0(vue@3.4.31)
       vue:
         specifier: ^3.2.45
         version: 3.4.31
@@ -460,6 +463,11 @@ packages:
   jiti@1.21.6:
     resolution: {integrity: sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==}
     hasBin: true
+
+  legal-annotation-kit@1.6.0:
+    resolution: {integrity: sha512-nP8nxYWpyCeF6eWkckbcKWwt0Yx54g6P9FVJ4cT2M4k//60V6Sw0CJGwMKGf6xM8Np37yqNkIxqdLFUlhmidpw==}
+    peerDependencies:
+      vue: ^3.4.0
 
   lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
@@ -1132,6 +1140,10 @@ snapshots:
       '@pkgjs/parseargs': 0.11.0
 
   jiti@1.21.6: {}
+
+  legal-annotation-kit@1.6.0(vue@3.4.31):
+    dependencies:
+      vue: 3.4.31
 
   lilconfig@2.1.0: {}
 

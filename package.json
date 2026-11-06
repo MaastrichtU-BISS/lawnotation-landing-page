@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fontsource-variable/roboto-slab": "^5.1.0",
+    "legal-annotation-kit": "^1.6.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
