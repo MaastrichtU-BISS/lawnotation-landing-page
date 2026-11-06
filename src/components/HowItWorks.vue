@@ -32,6 +32,10 @@
     <div class="mt-12" v-reveal="{ delay: 240 }">
       <AnnotatorDemo />
     </div>
+
+    <div class="mt-12" v-reveal="{ delay: 360 }">
+      <AgreementLab />
+    </div>
   </section>
 </template>
 
@@ -41,6 +45,7 @@ import { defineAsyncComponent } from "vue";
 // The annotator demo pulls in the legal-annotation-kit bundle (~60 kB), so it
 // is loaded on demand and only blocks its own slot with a skeleton.
 const AnnotatorDemo = defineAsyncComponent(() => import("./AnnotatorDemo.vue"));
+const AgreementLab = defineAsyncComponent(() => import("./AgreementLab.vue"));
 
 const icon = (path) => `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">${path}</svg>`;
 

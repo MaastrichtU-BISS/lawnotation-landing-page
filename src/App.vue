@@ -2,7 +2,6 @@
   <Header />
   <main>
     <Hero />
-    <AgreementLab />
     <HowItWorks />
     <About />
     <Team />
@@ -14,7 +13,6 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
-import AgreementLab from "./components/AgreementLab.vue";
 import HowItWorks from "./components/HowItWorks.vue";
 import About from "./components/About.vue";
 import Team from "./components/Team.vue";

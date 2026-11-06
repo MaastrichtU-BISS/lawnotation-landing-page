@@ -1,6 +1,6 @@
 <template>
-  <section id="lab" class="wrap pb-20 lg:pb-28" aria-labelledby="lab-title">
-    <div class="card overflow-hidden">
+  <div id="lab" class="card overflow-hidden">
+    <div aria-labelledby="lab-title">
       <div class="border-b border-slate-200/80 bg-gradient-to-r from-secondary-light/70 via-white to-beige/70 px-6 py-7 sm:px-10">
         <p class="eyebrow">Agreement Lab · sample data</p>
         <h2 id="lab-title" class="mt-2 font-slab text-2xl font-medium tracking-tight sm:text-3xl">
@@ -89,7 +89,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
