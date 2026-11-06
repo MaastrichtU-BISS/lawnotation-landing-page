@@ -29,7 +29,7 @@
       </li>
     </ol>
 
-    <div class="mt-12" v-reveal="{ delay: 240 }">
+    <div class="mt-12 hidden sm:block" v-reveal="{ delay: 240 }">
       <AnnotatorDemo />
     </div>
 
