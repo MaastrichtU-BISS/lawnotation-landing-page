@@ -91,20 +91,6 @@ const toolGroups = [
       { name: "Lawnotation parser", href: "https://github.com/MaastrichtU-BISS/lawnotation-parser", text: "Preprocesses LLM-generated annotations to make them lawnotation-ready." },
     ],
   },
-  {
-    title: "Platform components",
-    tools: [
-      { name: "Lawnotation", href: "https://github.com/MaastrichtU-BISS/lawnotation", text: "The legal text annotation platform itself." },
-      { name: "Inter-annotator agreement", href: "https://github.com/MaastrichtU-BISS/lawnotation-iaa", text: "Backend (lawnotation-iaa) and front-end (vue-iaa-metrics) computing agreement metrics from Lawnotation exports." },
-      { name: "Legal docs import", href: "https://github.com/MaastrichtU-BISS/vue-legal-docs-import", text: "Upload UI and preprocessing backends (Node & Go) for txt, pdf, docx and html files." },
-      { name: "Legal docs visualizer", href: "https://github.com/MaastrichtU-BISS/vue-legal-docs-visualizer", text: "Visualizes legal documents as a graph or table." },
-      { name: "Legal query builder", href: "https://github.com/MaastrichtU-BISS/vue-legal-query-builder", text: "API client to run complex legal document searches, on the client and server side." },
-      { name: "Legal workspace", href: "https://github.com/MaastrichtU-BISS/vue-legal-workspace", text: "CRUD views for legal entities such as datasets, tasks and labelsets." },
-      { name: "Labelset editor", href: "https://github.com/MaastrichtU-BISS/vue-labelset-editor", text: "Supports creation of labelsets for the annotation kit." },
-      { name: "Legal docs types & clients", href: "https://github.com/MaastrichtU-BISS/legal-docs-types", text: "Shared types and enums, plus Node and Go clients for the citations API." },
-      { name: "Case Law Explorer", href: "https://github.com/MaastrichtU-BISS/caselaw-ui", text: "Front-end and authentication (caselaw-auth) of the companion case law exploration project." },
-    ],
-  },
 ];
 
 // Collapsible groups: extractors start open, platform components start collapsed.
