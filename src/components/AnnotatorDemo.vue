@@ -86,26 +86,32 @@ function span(phrase, label, id, extra = {}) {
   return { id, start, end: start + phrase.length, label, text: phrase, relations: [], confidence: 0, metadata: null, ...extra };
 }
 
-const assignment = {
-  id: "gdpr-art17-demo",
-  annotator: "visitor",
-  order: 1,
-  status: "pending",
-  confidence: 0,
-  document_annotations: [],
-  document_relations: [],
-  annotations: [
+function createAssignment() {
+  const annotations = [
     span("shall have the obligation to erase personal data", "Duty", 1, { confidence: 4 }),
     span("where one of the following grounds applies", "Condition", 2, { confidence: 4 }),
     span("withdraws consent", "Condition", 3),
     span("shall take reasonable steps", "Duty", 4),
     span("shall not apply to the extent that processing is necessary", "Exception", 5, { confidence: 3 }),
-  ],
-};
+  ];
 
-// One sample relation: the duty in art. 17(1) depends on the condition that a
-// ground applies. Shows off the kit's relation arrows.
-assignment.annotations[0].relations = [{ to: 2, direction: "right", labels: ["Depends on"] }];
+  // One sample relation: the duty in art. 17(1) depends on the condition that a
+  // ground applies. Shows off the kit's relation arrows.
+  annotations[0].relations = [{ to: 2, direction: "right", labels: ["Depends on"] }];
+
+  return {
+    id: "gdpr-art17-demo",
+    annotator: "visitor",
+    order: 1,
+    status: "pending",
+    confidence: 0,
+    document_annotations: [],
+    document_relations: [],
+    annotations,
+  };
+}
+
+const assignment = ref(createAssignment());
 
 const doc = { name: "GDPR Article 17 — Right to erasure", full_text: fullText };
 
@@ -128,6 +134,7 @@ function save() {
 
 function reset() {
   localStorage.removeItem(DRAFT_KEY);
+  assignment.value = createAssignment();
   demoKey.value += 1;
 }
 </script>
